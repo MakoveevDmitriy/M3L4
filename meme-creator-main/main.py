@@ -12,7 +12,7 @@ def index():
         selected_image = request.form.get('image-selector')
 
         # Задание №2.Получаем текст
-        text_top = request.form.get('text_top')
+        text_top = request.form.get('textTop')
         textBottom = request.form.get('textBottom')
         # Задание №3. Получаем расположение текста
         text_top_y = request.form.get('textTop_y')
@@ -20,7 +20,7 @@ def index():
         
 
         # Задание №3. Получаем цвет текста
-        selected_color = request.form.get('selected_color')
+        selected_color = request.form.get('color-selector')
 
 
 
